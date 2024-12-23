@@ -1,0 +1,13 @@
+@extends('front-end.master')
+@section('sidebar')
+    @include('front-end.sidebar')
+@endsection
+@section('slider')
+    @include('front-end.slider')
+@endsection
+@section('store')
+    @include('front-end.product')
+@endsection
+@section('blogs')
+    @include('front-end.blogs')
+@endsection
